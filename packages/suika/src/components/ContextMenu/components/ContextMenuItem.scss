@@ -1,5 +1,5 @@
-.suika {
-  .suika-context-menu-item {
+.DesignForge {
+  .DesignForge-context-menu-item {
     display: flex;
     justify-content: space-between;
 
@@ -12,7 +12,7 @@
       color: #fff;
       background-color: #0f8fff;
     }
-    &.suika-is-disable {
+    &.DesignForge-is-disable {
       color: #ccc;
       pointer-events: none;
       &:hover {

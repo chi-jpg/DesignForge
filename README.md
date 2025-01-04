@@ -1,10 +1,10 @@
 **Suika Graphics Editor**, an open-source vector graphics editor based on Canvas, similar to Figma.
 
-**suika 图形编辑器**，一款开源的基于 Canvas 实现的矢量图形编辑器，类似 Figma。
+**DesignForge 图形编辑器**，一款开源的基于 Canvas 实现的矢量图形编辑器，类似 Figma。
 
 English | [中文](./README_zh.md)
 
-[Experience](https://blog.fstars.wang/app/suika/)
+[Experience](https://blog.fstars.wang/app/DesignForge/)
 
 ![Screenshot](screenshot.png)
 
@@ -56,15 +56,15 @@ pnpm run dev
 pnpm build
 ```
 
-The target output folder is `packages/suika/build`.
+The target output folder is `packages/DesignForge/build`.
 
 ## Icon
 
-[figma design](https://www.figma.com/community/file/1224385128783567603/suika-icons)
+[figma design](https://www.figma.com/community/file/1224385128783567603/DesignForge-icons)
 
 ## About Multi-User Collaboration
 
-The frontend implementation logic for collaboration is located in the `@suika/suika-multiplayer` package. This package copies `@suika/suika` (pure client-side) and adds multi-user collaboration logic, such as multiple cursors, and calls some interfaces, like getting the drawing name and current user information.
+The frontend implementation logic for collaboration is located in the `@DesignForge/DesignForge-multiplayer` package. This package copies `@DesignForge/DesignForge` (pure client-side) and adds multi-user collaboration logic, such as multiple cursors, and calls some interfaces, like getting the drawing name and current user information.
 
 Multi-user collaboration is implemented using yjs and the hocuspocus library (a further wrapper around yjs).
 

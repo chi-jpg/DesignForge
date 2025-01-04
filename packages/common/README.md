@@ -1,3 +1,3 @@
-@suika/common
+@DesignForge/common
 
 Common Utils

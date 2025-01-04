@@ -1,5 +1,5 @@
 {
-  "name": "@suika/suika",
+  "name": "@DesignForge/DesignForge",
   "version": "0.0.1",
   "description": "a graphics editor.",
   "private": true,
@@ -12,11 +12,11 @@
   },
   "dependencies": {
     "@floating-ui/react": "^0.22.3",
-    "@suika/common": "workspace:^",
-    "@suika/components": "workspace:^",
-    "@suika/core": "workspace:^",
-    "@suika/geo": "workspace:^",
-    "@suika/icons": "workspace:^",
+    "@DesignForge/common": "workspace:^",
+    "@DesignForge/components": "workspace:^",
+    "@DesignForge/core": "workspace:^",
+    "@DesignForge/geo": "workspace:^",
+    "@DesignForge/icons": "workspace:^",
     "ahooks": "^3.7.4",
     "classnames": "^2.3.2",
     "react": "^18.2.0",

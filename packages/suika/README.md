@@ -1,3 +1,3 @@
-@suika/suika
+@DesignForge/DesignForge
 
-the Web UI of suika editor
+the Web UI of DesignForge editor

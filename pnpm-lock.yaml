@@ -133,10 +133,10 @@ importers:
       '@floating-ui/react':
         specifier: ^0.22.3
         version: 0.22.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@suika/common':
+      '@DesignForge/common':
         specifier: workspace:^
         version: link:../common
-      '@suika/icons':
+      '@DesignForge/icons':
         specifier: workspace:^
         version: link:../icons
       classnames:
@@ -215,10 +215,10 @@ importers:
 
   packages/core:
     dependencies:
-      '@suika/common':
+      '@DesignForge/common':
         specifier: workspace:^
         version: link:../common
-      '@suika/geo':
+      '@DesignForge/geo':
         specifier: workspace:^
         version: link:../geo
       bezier-js:
@@ -243,7 +243,7 @@ importers:
 
   packages/geo:
     dependencies:
-      '@suika/common':
+      '@DesignForge/common':
         specifier: workspace:^
         version: link:../common
       fit-curve:
@@ -282,24 +282,24 @@ importers:
         specifier: ^5.0.8
         version: 5.0.8(@types/node@20.11.5)(sass@1.62.0)(terser@5.17.1)
 
-  packages/suika:
+  packages/DesignForge:
     dependencies:
       '@floating-ui/react':
         specifier: ^0.22.3
         version: 0.22.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@suika/common':
+      '@DesignForge/common':
         specifier: workspace:^
         version: link:../common
-      '@suika/components':
+      '@DesignForge/components':
         specifier: workspace:^
         version: link:../components
-      '@suika/core':
+      '@DesignForge/core':
         specifier: workspace:^
         version: link:../core
-      '@suika/geo':
+      '@DesignForge/geo':
         specifier: workspace:^
         version: link:../geo
-      '@suika/icons':
+      '@DesignForge/icons':
         specifier: workspace:^
         version: link:../icons
       ahooks:
@@ -367,7 +367,7 @@ importers:
         specifier: ^0.6.4
         version: 0.6.4(eslint@8.55.0)(optionator@0.9.3)(typescript@5.3.3)(vite@5.0.8(@types/node@20.11.5)(sass@1.62.0)(terser@5.17.1))
 
-  packages/suika-multiplayer:
+  packages/DesignForge-multiplayer:
     dependencies:
       '@floating-ui/react':
         specifier: ^0.22.3
@@ -375,19 +375,19 @@ importers:
       '@hocuspocus/provider':
         specifier: ^2.13.5
         version: 2.13.5(y-protocols@1.0.6(yjs@13.6.17))(yjs@13.6.17)
-      '@suika/common':
+      '@DesignForge/common':
         specifier: workspace:^
         version: link:../common
-      '@suika/components':
+      '@DesignForge/components':
         specifier: workspace:^
         version: link:../components
-      '@suika/core':
+      '@DesignForge/core':
         specifier: workspace:^
         version: link:../core
-      '@suika/geo':
+      '@DesignForge/geo':
         specifier: workspace:^
         version: link:../geo
-      '@suika/icons':
+      '@DesignForge/icons':
         specifier: workspace:^
         version: link:../icons
       ahooks:

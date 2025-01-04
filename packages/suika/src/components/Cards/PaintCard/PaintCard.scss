@@ -1,4 +1,4 @@
-.suika {
+.DesignForge {
   .fill-item {
     position: relative;
     display: flex;
@@ -10,7 +10,7 @@
       display: flex;
       align-items: center;
 
-      .suika-custom-ruler-input-box {
+      .DesignForge-custom-ruler-input-box {
         margin-right: 0;
         &.disabled {
           input {
@@ -31,7 +31,7 @@
       }
     }
 
-    .suika-paint-card-actions {
+    .DesignForge-paint-card-actions {
       display: flex;
       justify-content: center;
       align-items: center;

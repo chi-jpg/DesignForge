@@ -1,8 +1,8 @@
-**suika 图形编辑器**，一款开源的基于 Canvas 实现的矢量图形编辑器，类似 Figma。
+**DesignForge 图形编辑器**，一款开源的基于 Canvas 实现的矢量图形编辑器，类似 Figma。
 
 简体中文 | [English](./README.md)
 
-[体验网址](https://blog.fstars.wang/app/suika/)
+[体验网址](https://blog.fstars.wang/app/DesignForge/)
 
 ![Screenshot](screenshot.png)
 
@@ -28,7 +28,7 @@
 
 ## 文档
 
-[中文文档](https://f-star.github.io/suika-document/)
+[中文文档](https://f-star.github.io/DesignForge-document/)
 
 文档目前尚不完善。
 
@@ -62,7 +62,7 @@ pnpm run dev
 pnpm build
 ```
 
-构建产物在目录：`packages/suika/build`.
+构建产物在目录：`packages/DesignForge/build`.
 
 ## 编辑器内核设计
 
@@ -87,11 +87,11 @@ pnpm build
 
 ## 图标设计稿
 
-[地址](https://www.figma.com/community/file/1224385128783567603/suika-icons)
+[地址](https://www.figma.com/community/file/1224385128783567603/DesignForge-icons)
 
 ## 关于多人协同
 
-协同的前端实现逻辑位于 `@suika/suika-multiplayer` 包，该包拷贝了 `@suika/suika`（纯客户端），在其基础上加入了多人协同逻辑，比如多人光标，并调用了一些接口，如获取图纸名、当前用户信息。
+协同的前端实现逻辑位于 `@DesignForge/DesignForge-multiplayer` 包，该包拷贝了 `@DesignForge/DesignForge`（纯客户端），在其基础上加入了多人协同逻辑，比如多人光标，并调用了一些接口，如获取图纸名、当前用户信息。
 
 多人协同基于 yjs 实现，并使用了 hocuspocus 库（对 yjs 的进一步封装）。
 

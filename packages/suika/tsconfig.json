@@ -17,11 +17,11 @@
     "jsx": "react-jsx",
     "noImplicitOverride": true,
     "paths": {
-      "@suika/common": ["../common/src"],
-      "@suika/icons": ["../icons/src"],
-      "@suika/components": ["../components/src"],
-      "@suika/geo": ["../geo/src"],
-      "@suika/core": ["../core/src"]
+      "@DesignForge/common": ["../common/src"],
+      "@DesignForge/icons": ["../icons/src"],
+      "@DesignForge/components": ["../components/src"],
+      "@DesignForge/geo": ["../geo/src"],
+      "@DesignForge/core": ["../core/src"]
     }
   },
   "include": ["src"],
